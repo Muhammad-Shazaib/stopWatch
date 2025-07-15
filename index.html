@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VVIP Stopwatch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>⏱️ Stopwatch</h1>
+
+    <div class="timer">
+      <div id="min" class="time-box">00</div>
+      <span>:</span>
+      <div id="sec" class="time-box">00</div>
+      <span>:</span>
+      <div id="msec" class="time-box">00</div>
+    </div>
+
+    <div class="buttons">
+      <button onclick="start()" id="st">Start</button>
+      <button onclick="stop()">Stop</button>
+      <button onclick="reset()">Reset</button>
+    </div>
+  </div>
+
+  <script src="app.mjs"></script>
+</body>
+</html>
